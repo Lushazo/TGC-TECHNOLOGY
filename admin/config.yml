@@ -1,0 +1,139 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+logo_url: "/assets/tgc-logo.png"
+publish_mode: simple
+collections:
+  - name: "site"
+    label: "Website Settings"
+    files:
+      - label: "Company & Branding"
+        name: "settings"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Company"
+            name: "company"
+            widget: "object"
+            fields:
+              - {label: "Company name", name: "name", widget: "string"}
+              - {label: "Short name", name: "shortName", widget: "string"}
+              - {label: "Tagline", name: "tagline", widget: "string"}
+              - {label: "Phone", name: "phone", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "WhatsApp number", name: "whatsapp", widget: "string"}
+              - {label: "Location", name: "location", widget: "string"}
+          - label: "Social media"
+            name: "social"
+            widget: "object"
+            fields:
+              - {label: "Facebook", name: "facebook", widget: "string", required: false}
+              - {label: "Instagram", name: "instagram", widget: "string", required: false}
+              - {label: "TikTok", name: "tiktok", widget: "string", required: false}
+              - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
+              - {label: "YouTube", name: "youtube", widget: "string", required: false}
+              - {label: "X", name: "x", widget: "string", required: false}
+          - label: "Colors"
+            name: "theme"
+            widget: "object"
+            fields:
+              - {label: "Primary blue", name: "primary", widget: "color"}
+              - {label: "Dark blue", name: "primaryDark", widget: "color"}
+              - {label: "Navy", name: "navy", widget: "color"}
+              - {label: "Page background", name: "background", widget: "color"}
+              - {label: "Surface background", name: "surface", widget: "color"}
+              - {label: "Main text", name: "text", widget: "color"}
+              - {label: "Muted text", name: "muted", widget: "color"}
+              - {label: "Accent", name: "accent", widget: "color"}
+          - label: "Logos"
+            name: "branding"
+            widget: "object"
+            fields:
+              - {label: "Header logo", name: "headerLogo", widget: "image"}
+              - {label: "Footer logo", name: "footerLogo", widget: "image"}
+              - {label: "Favicon", name: "favicon", widget: "image"}
+          - label: "Homepage"
+            name: "home"
+            widget: "object"
+            fields:
+              - {label: "Hero eyebrow", name: "eyebrow", widget: "string"}
+              - {label: "Hero title", name: "title", widget: "string"}
+              - {label: "Hero description", name: "description", widget: "text"}
+              - {label: "Intro eyebrow", name: "introEyebrow", widget: "string"}
+              - {label: "Intro title", name: "introTitle", widget: "string"}
+              - {label: "Intro text", name: "introText", widget: "text"}
+              - {label: "Problem section eyebrow", name: "painEyebrow", widget: "string"}
+              - {label: "Problem section lines (use | between lines)", name: "painTitle", widget: "text"}
+              - {label: "Problem section text", name: "painText", widget: "text"}
+              - {label: "Problem section strong text", name: "painStrong", widget: "string"}
+              - {label: "Problem section background", name: "painImage", widget: "image"}
+              - {label: "About eyebrow", name: "aboutEyebrow", widget: "string"}
+              - {label: "About title", name: "aboutTitle", widget: "string"}
+              - {label: "About text", name: "aboutText", widget: "text"}
+              - {label: "About image", name: "aboutImage", widget: "image"}
+          - label: "News section settings"
+            name: "news"
+            widget: "object"
+            fields:
+              - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Background image", name: "background", widget: "image"}
+              - {label: "Auto-play slider", name: "sliderAutoPlay", widget: "boolean", default: true}
+              - {label: "Slider seconds", name: "sliderSeconds", widget: "number", value_type: "int", min: 2, max: 30}
+          - label: "Website Images"
+            name: "photos"
+            widget: "object"
+            fields:
+              - {label: "Hero background", name: "hero", widget: "image"}
+              - {label: "Website/service image", name: "website", widget: "image"}
+              - {label: "IT image", name: "it", widget: "image"}
+              - {label: "AI image", name: "ai", widget: "image"}
+              - {label: "Network image", name: "network", widget: "image"}
+              - {label: "Telephony image", name: "telephony", widget: "image"}
+              - {label: "Social media image", name: "social", widget: "image"}
+              - {label: "Creative image", name: "photo", widget: "image"}
+              - {label: "About image", name: "about", widget: "image"}
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - {label: "Slug", name: "slug", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Short description", name: "short", widget: "text"}
+              - {label: "Problem", name: "pain", widget: "text"}
+              - {label: "Service image", name: "image", widget: "image"}
+              - {label: "Image source URL", name: "source", widget: "string", required: false}
+              - label: "Bullet points"
+                name: "bullets"
+                widget: "list"
+                field: {label: "Point", name: "point", widget: "string"}
+          - label: "Contact section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Lead", name: "lead", widget: "text"}
+  - name: "news"
+    label: "News Updates"
+    files:
+      - label: "All News"
+        name: "news"
+        file: "content/news.json"
+        format: "json"
+        fields:
+          - label: "News posts"
+            name: "posts"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string"}
+              - {label: "Category", name: "category", widget: "select", options: [technology, company, jobs]}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Short description", name: "excerpt", widget: "text"}
+              - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+              - {label: "Picture", name: "image", widget: "image"}
+              - {label: "Published", name: "published", widget: "boolean", default: true}
+              - {label: "Link", name: "link", widget: "string", required: false}
