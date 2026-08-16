@@ -1,12 +1,31 @@
 {
-  "company": {
-    "name": "TGC Technology LTD",
-    "shortName": "TGC Tech",
-    "tagline": "Simple technology. Better business.",
-    "phone": "+255 123 456 789",
-    "email": "info@tgc.co.tz",
-    "whatsapp": "255123456789",
-    "location": "Tanzania"
+  "contact": {
+    "eyebrow": "CONTACT US",
+    "title": "Tell us what you need help with.",
+    "lead": "You do not need to know the technology. Just tell us the problem."
+  },
+  "photos": {
+    "ai": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=82",
+    "it": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=82",
+    "social": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=82",
+    "about": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1400&q=85",
+    "network": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=82",
+    "photo": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=82",
+    "telephony": "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=1200&q=82",
+    "hero": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1800&q=85",
+    "website": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=82"
+  },
+  "theme": {
+    "primary": "#0b5cff",
+    "cyan": "#20a4f3",
+    "accent": "#20a4f3",
+    "muted": "#64748b",
+    "surface": "#f4f7fb",
+    "text": "#10233f",
+    "background": "#ffffff",
+    "navy": "#071a33",
+    "primaryDark": "#063b8f",
+    "blue": "#0b5cff"
   },
   "social": {
     "linkedin": "#",
@@ -16,52 +35,27 @@
     "youtube": "#",
     "x": "#"
   },
-  "theme": {
-    "primary": "#0b5cff",
-    "primaryDark": "#063b8f",
-    "navy": "#071a33",
-    "background": "#ffffff",
-    "surface": "#f4f7fb",
-    "text": "#10233f",
-    "muted": "#64748b",
-    "accent": "#20a4f3",
-    "blue": "#0b5cff",
-    "cyan": "#20a4f3"
+  "news": {
+    "eyebrow": "TGC NEWS & UPDATES",
+    "title": "Technology, company news & opportunities.",
+    "description": "A simple place to share what is happening at TGC Technology Ltd — useful technology updates, company announcements and new job opportunities.",
+    "background": "assets/news-section-bg.jpg",
+    "sliderAutoPlay": true,
+    "sliderSeconds": 5
   },
   "branding": {
     "headerLogo": "assets/tgc-logo.png",
     "footerLogo": "assets/tgc-logo-footer-white.png",
     "favicon": "assets/tgc-logo.png"
   },
-  "home": {
-    "eyebrow": "TGC TECHNOLOGY LTD",
-    "title": "Technology should make work easier.",
-    "description": "We build websites, fix IT problems, connect offices, add AI and help businesses grow online.",
-    "introEyebrow": "WHY TGC TECH?",
-    "introTitle": "We solve everyday technology problems.",
-    "introText": "We keep technology simple. Tell us what is not working, what is taking too much time, or where your business needs to grow. We help you find a practical solution.",
-    "painEyebrow": "DOES THIS SOUND FAMILIAR?",
-    "painTitle": "\u201cMy computer is slow.\u201d|\u201cCustomers cannot find us.\u201d|\u201cWe do this work by hand.\u201d",
-    "painText": "These are not just technology problems. They cost time, money and customers.",
-    "painStrong": "TGC Tech helps you fix them.",
-    "painImage": "assets/pain-section-bg.jpg",
-    "aboutEyebrow": "ABOUT TGC",
-    "aboutTitle": "A technology partner you can talk to.",
-    "aboutText": "We work with individuals, small businesses and larger organizations. Our goal is simple: give you technology that works and help your people use it.",
-    "aboutImage": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1400&q=85"
-  },
-  "news": {
-    "eyebrow": "TGC NEWS & UPDATES",
-    "title": "Technology, company news & opportunities.",
-    "description": "A simple place to share what is happening at TGC Technology Ltd \u2014 useful technology updates, company announcements and new job opportunities.",
-    "background": "assets/news-section-bg.jpg",
-    "sliderAutoPlay": true,
-    "sliderSeconds": 5
-  },
-  "contact": {
-    "eyebrow": "CONTACT US",
-    "title": "Tell us what you need help with.",
-    "lead": "You do not need to know the technology. Just tell us the problem."
+  "company": {
+    "name": "TGC Technology LTD",
+    "shortName": "TGC Tech",
+    "tagline": "Simple technology. Better business.",
+    "phone": "+255 762 449 029",
+    "email": "info@tgc.co.tz",
+    "whatsapp": "255123456789",
+    "location": "Tanzania"
   },
   "services": [
     {
@@ -171,15 +165,21 @@
       "source": "https://unsplash.com/s/photos/photography-business"
     }
   ],
-  "photos": {
-    "hero": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1800&q=85",
-    "website": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=82",
-    "it": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=82",
-    "ai": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=82",
-    "network": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=82",
-    "telephony": "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=1200&q=82",
-    "social": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=82",
-    "photo": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=82",
-    "about": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1400&q=85"
+  "home": {
+    "painTitle": "“My computer is slow.”|“Customers cannot find us.”|“We do this work by hand.”",
+    "painText": "These are not just technology problems. They cost time, money and customers.",
+    "painImage": "assets/pain-section-bg.jpg",
+    "eyebrow": "TGC TECHNOLOGY LTD",
+    "aboutTitle": "A technology partner you can talk to.",
+    "introTitle": "We solve everyday technology problems.",
+    "painStrong": "TGC Tech helps you fix them.",
+    "aboutImage": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1400&q=85",
+    "painEyebrow": "DOES THIS SOUND FAMILIAR?",
+    "title": "Technology should make work easier.",
+    "introText": "We keep technology simple. Tell us what is not working, what is taking too much time, or where your business needs to grow. We help you find a practical solution.",
+    "aboutText": "We work with individuals, small businesses and larger organizations. Our goal is simple: give you technology that works and help your people use it.",
+    "aboutEyebrow": "ABOUT TGC",
+    "description": "We build websites, fix IT problems, connect offices, add AI and help businesses grow online.",
+    "introEyebrow": "WHY TGC TECH?"
   }
 }
